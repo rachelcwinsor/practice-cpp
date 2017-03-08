@@ -35,3 +35,18 @@ Lecture 1.6 Standard IO
 -Streams = objects representing:
 	Standard input (cin), Standard output (cout), Standard error (cerr)
 	singleton design pattern (there is one copy available when program is created. be careful in multi-threaded environment
+
+Lecture 2.1 String
+- built in class for C++ -> replacement for char* in C (array of characters with \0 as final character)
+- can hold: constant strings (read only); variable strings (read/write); support lots of operators (size/[]/+,...)
+-3 pools: Globals, Stack, Heap
+   - declaring a variable -> hosted on the Stack (in Java -> on the Heap by saying string a = new string;) you have the option in C++
+   - constructor initializes the stage of the object
+
+printing a frame of ****** around message output
+
+Lecture 2.2 Constness
+- Makes an entity Immutable (no risk of accidental change; better than pre-processor macros)
+- The notion of being constant
+- you cannot use a method or function on an constness object if it has the possibility of being modified
+

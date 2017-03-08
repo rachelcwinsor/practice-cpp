@@ -50,3 +50,17 @@ Lecture 2.2 Constness
 - The notion of being constant
 - you cannot use a method or function on an constness object if it has the possibility of being modified
 
+Lecture 2.3 Functions
+- call by value -> calling a copy of original, original stays untouched
+- const with immutability - using const gives good indication of the nature of a variable
+
+Lecture 2.4 Numeric Types (name[num of bytes])
+char[1], short [2], int [4], long [4,8] (it depends on the OS. 32-bit = 4; 64-bit = 8), long long[8]
+float[4], double[8] --> density of a floating point decreases as you move away from 0.0
+[signed] and [unsigned] variants
+bool[1] (same as char) --> true/false
+
+Lecture 2.5 
+Arrays and Pointers
+(of char)
+
